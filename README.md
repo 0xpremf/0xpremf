@@ -19,7 +19,6 @@
 public class Prem {
     String   role    = "backend engineer";
     String   stack   = "Java · Spring Boot · PostgreSQL · Redis · Docker";
-    String[] targets = { "Razorpay", "Zerodha", "Cloudflare", "Stripe" };
     boolean  shipping = true; // always
 }
 ```
@@ -32,7 +31,7 @@ public class Prem {
   <tr>
     <td width="50%">
       <h3>🔒 distributed-rate-limiter</h3>
-      <p>Annotation-driven <code>@RateLimit</code> library — Token Bucket, Sliding Window, Fixed Window. Lua scripts for atomic Redis ops. Publishable as a Spring Boot starter.</p>
+      <p>Annotation-driven <code>@RateLimit</code> library -> Token Bucket, Sliding Window, Fixed Window. Lua scripts for atomic Redis ops. Publishable as a Spring Boot starter.</p>
       <p>
         <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
         <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
@@ -56,7 +55,7 @@ public class Prem {
   <tr>
     <td colspan="2">
       <h3>✅ <a href="https://github.com/0xpremf/task-manager-api">task-manager-api</a></h3>
-      <p>Production REST API — JWT auth, DTOs, pagination, Redis caching, Docker Compose, GitHub Actions CI/CD, deployed on Railway.</p>
+      <p>Production REST API || JWT auth, DTOs, pagination, Redis caching, Docker Compose, GitHub Actions CI/CD, deployed on Railway.</p>
       <p>
         <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
         <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
@@ -65,7 +64,7 @@ public class Prem {
         <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
         <img src="https://img.shields.io/badge/Railway-0B0D0E?style=flat-square&logo=railway&logoColor=white"/>
       </p>
-      <img src="https://img.shields.io/badge/status-✅ shipped-444441?style=flat-square"/>
+      
     </td>
   </tr>
 </table>
